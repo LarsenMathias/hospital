@@ -1,0 +1,6 @@
+{% if document.qr_code %}
+    <img src="{{ document.qr_code.url }}" alt="QR Code">
+{% else %}
+    <p></p>
+{% endif %}
+
